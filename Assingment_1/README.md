@@ -16,11 +16,11 @@ Each commands consist of a single charaacter:
 
 #### Character Meaning
 
-1. > increment the data pointer (to point to the next right cell in memory).
-2. < decrement the data pointer (to point to the next left cell in memory).
-3. '+' increment the data pointer by 1.
-4. '-' decrement the data pointer by 1.
-5. . output the current pointed cell in memory.
-6. , accept one byte of input to storing in memory.
-7.[  if the current cell is zero, the instruction pointer will jump to the matching ] (think while loop)
-8. ] if the current cell is nonzero, jump back to the matching ] in the instructions .
+1. <p> > increment the data pointer (to point to the next right cell in memory).</p>
+2. <p> < decrement the data pointer (to point to the next left cell in memory).</p>
+3. <p> '+' increment the data pointer by 1.</p>
+4. <p> '-' decrement the data pointer by 1.</p>
+5. <p> . output the current pointed cell in memory.</p>
+6. <p> , accept one byte of input to storing in memory.</p>
+7. <p> [  if the current cell is zero, the instruction pointer will jump to the matching ] (think while loop) </p>
+8. <p> ] if the current cell is nonzero, jump back to the matching ] in the instructions. </p>
